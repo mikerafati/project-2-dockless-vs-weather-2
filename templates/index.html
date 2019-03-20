@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dockless </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+        <header>
+                <h1>Austin, Texas Dockless Vehicle Study</h1>
+              </header>
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                    <a class="navbar-brand" href="visualizations/per day.html">Project Members:
+                      Petros Paterakis, Michael Alrafati, Mounica Pokala, Amro Elhag, Becky Bobba</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">visualization
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class= "dropdown-menu">
+                                    <li>
+                                        <a href="visualizations/ride_weather/ride_weather.html">ride vs weather</a>
+                                    </li>
+                                    <li>
+                                        <a href="visualizations/per_day/per day.html">scooter usage per day</a>
+                                    </li>
+                                    <li>
+                                        <a href="visualizations/trip_weather/trip.html">trip vs weather</a>
+                                    </li>
+                                    <li>
+                                        <a href="visualizations/trip_map/map.html">Trip  map</a>
+                                    </li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+    <!-- <div id="plot1"></div> -->
+    <!-- <div id="plot"></div>  -->
+     <!-- <script src="app.js"></script>   -->
+     
+     <p>
+      <li>The purpose of this project was to analyze how Scooters Ride and Trip changes vs weather changes and how the Scooters usage changes per day.</li>
+       <ul>To accomplish this analysis, we first pulled data from the City of Austin Dockless Vehicle Trips and Open Weather Map API to assemble a dataset.</ul>
+      <li>After assembling the dataset, we used plot various aspects of the Scooters Numbers usage per day and ride vs weather, ride vs weather description, trip map vs Factors we looked at included: cloudiness, Sunny, rainy and humidity. the Reference provides the source data and visualizations created as part of the analysis</li> 
+      <!-- <li>Further Potential Analysis:</li>
+      <li>Analyze scooter usage during different weather conditions</li>
+      <li>Analyze scooter usage per day</li>
+      <li>Analyze scooter usage per day</li>
+      <li>Analyze scooter usage per day</li>
+       -->
+    </p>
+  <img src="C:\Users\michael\Desktop\project-2-dockless-vs-weather-2\templates\images.jpg" alt="Awesome" width="25%">
+
+  <h3>Reference</h3>
+  <ul>
+    <li><a href="https://data.austintexas.gov/Transportation-and-Mobility/Dockless-Vehicle-Trips/7d8e-dm7r">City Of austin</a></li>
+    <li><a href="https://www.kxan.com/news/local/austin/scooters-vanish-overnight-following-new-rules-passed-by-council/1150212830">KXAN</a></li>
+    <!-- <li><a href="https://www.twitter.com">Twitter</a></li> -->
+  </ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script> 
+    <script src="../js/test.js"></script> 
+    <script src="../js/app.js"></script> 
+     <!-- <script src="../js/app1.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+            
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous">
+        </script>                  
+</body>
+</html>
