@@ -4,7 +4,7 @@
 ![Dockless Scooter](http://s79f01z693v3ecoes3yyjsg1.wpengine.netdna-cdn.com/wp-content/uploads/2018/03/sf.Bird_.0307.jpg) <br>
 
 ### Project Members:
-#### Petros Paterakis, Michael Alrafati, Mounica Pokala, Amro Elhag, Becky Bobba
+#### Petros Paterakis, Michael Alrafati, Mounica Pokala, Amro Elhag
 
 <hr><h3 align=center> What is the correlation between dockless vehicle usage & weather in Austin? </h3><hr>
 
